@@ -27,8 +27,6 @@ footer {
 # A practical laser attack on the go
 ## Workshop 06 - Grehack 24
 
-
-
 ---
 
 <!-- header: "Agenda" -->
@@ -78,9 +76,10 @@ table, th, td, tr {
   padding:0;
   text-align:center;
   line-height:1;
-  
 }
+
 section tr:nth-child(even) {background-color: transparent;}
+
 section tt {
   background-color:transparent;
   padding:0;
@@ -183,6 +182,7 @@ section tr:nth-child(even) {
 
 ----
 
+<!-- header: "Attack of the OneKey Mini" -->
 <!-- _header: "" -->
 <!-- _footer: "" -->
 <!-- _class: invert title -->
@@ -193,9 +193,6 @@ section tr:nth-child(even) {
 ## **Laser on ATECC**
 
 ----
-
-<!-- header: "Attack of the OneKey Mini" -->
-<!-- _class: invert -->
 
 # The Target Of Evaluation
 
@@ -292,7 +289,24 @@ atecc.read(slot=6, trigger=I2CTrigger.END.value) ^ atecc.temp_key
 
 ---
 
+<style scoped>
+section p {
+  margin:0 auto;
+}
+</style>
+
+# The Attack
+
+![height:12cm](https://pbs.twimg.com/media/FxoxQrLXgAISK_D?format=jpg&name=medium)
+
+https://hardwear.io/archives/usa-2023/
+
+---
+
 <!-- header: "Live execution" -->
+<!-- _header: "" -->
+<!-- _footer: "" -->
+<!-- _paginate: hide -->
 <!-- _class: invert title -->
 
 # Let's do it!
@@ -380,7 +394,10 @@ section img {
 ---
 
 <!-- header: "Corrections and countermeasures" -->
+<!-- _header: "" -->
+<!-- _footer: "" -->
 <!-- _class: invert title -->
+<!-- _paginate: hide -->
 
 # Corrections and countermeasures
 
@@ -394,10 +411,31 @@ section img {
 - Laser detectors
 - Fault counting...
 
-# From the have a good configuration
+# From the constructor
 
-## Lock any
+## Implement a good configuration
 
-## 
+- Lock all unecessary slots
+- Use convenient features
 
 ---
+
+<!-- header: "" -->
+<!-- footer: "" -->
+<!-- _class: invert title -->
+<!-- _paginate: skip -->
+
+<style scoped>
+section h1, section h2, section p {
+  margin:0 auto;
+}
+</style>
+
+# Thank you for your attention
+## Questions?
+
+<br>
+
+![height:7cm](qrlink.png)
+
+https://donjon.ledger.com/enter-the-donjon-grehack24

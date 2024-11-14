@@ -1,0 +1,121 @@
+/* @theme donjon */
+
+@import "default";
+
+
+:root {
+  --color-primary-black: #000;
+  --color-primary-white: #F5F5F5;
+  --color-technical-gray: #C1C1C1;
+
+  --color-safety-orange: #FF5300;
+  --color-serenity-purple: #D4A0FF;
+  --color-security-blue: #001B3C;
+  --color-grellow: #DEFF00;
+  --ledger-logo-svg-black: url('data:image/svg+xml; utf8, <svg fill="black" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 768.91 669.35" style="enable-background:new 0 0 768.91 669.35;" xml:space="preserve"> <path d="M0,479.29v190.06h289.22V627.2H42.14V479.29H0z M726.77,479.29V627.2H479.69v42.14h289.22V479.29H726.77z M289.64,190.06 v289.22h190.05v-38.01H331.78V190.06H289.64z M0,0v190.06h42.14V42.14h247.08V0H0z M479.69,0v42.14h247.08v147.92h42.14V0H479.69z"/></svg>');
+  --ledger-logo-svg-gray: url('data:image/svg+xml; utf8, <svg fill="%23C1C1C1" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 768.91 669.35" style="enable-background:new 0 0 768.91 669.35;" xml:space="preserve"> <path d="M0,479.29v190.06h289.22V627.2H42.14V479.29H0z M726.77,479.29V627.2H479.69v42.14h289.22V479.29H726.77z M289.64,190.06 v289.22h190.05v-38.01H331.78V190.06H289.64z M0,0v190.06h42.14V42.14h247.08V0H0z M479.69,0v42.14h247.08v147.92h42.14V0H479.69z"/></svg>');
+  --donjon-logo-svg-orange: url('data:image/svg+xml; utf8, <svg viewBox="0 0 91 120" fill="%23FF5300" version="1.1" id="Layer_1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <path d="M8.99821 21.2438V29.1913L18.051 24.2302V16.2706C18.0563 15.9006 18.1499 15.5373 18.324 15.2107C18.4981 14.8841 18.7477 14.6037 19.0522 14.3927L26.0723 10.522C26.6306 10.2191 27.0796 10.5644 27.0796 11.2973V19.2388L36.1142 14.2595V6.31802C36.1194 5.94809 36.213 5.58474 36.3871 5.25815C36.5613 4.93156 36.8109 4.65114 37.1153 4.44018L45.1488 0V1.34478V26.4957L0 51.3741V26.2231C0.00444471 25.8524 0.0983034 25.4881 0.273628 25.1613C0.448953 24.8344 0.700583 24.5545 1.00722 24.3453L8.01526 20.4745C8.56741 20.1716 8.99821 20.5169 8.99821 21.2438Z"/> <path fill-rule="evenodd" clip-rule="evenodd" d="M81.2751 29.1913V21.2438C81.2751 20.7164 81.5115 20.3899 81.8522 20.3661L71.5553 14.6586C71.7184 14.8202 71.8571 15.0055 71.9662 15.2091C72.1415 15.5359 72.2356 15.8999 72.2405 16.2706V24.2302L81.2751 29.1913ZM63.9028 10.4169C63.4975 10.3678 63.2059 10.7067 63.2059 11.2973V19.2388L54.1774 14.2595V6.31803C54.1721 5.9481 54.0785 5.58475 53.9044 5.25816C53.7607 4.98855 53.5655 4.7504 53.3304 4.55682L63.9028 10.4169ZM45.6209 26.7558L86.7711 49.4277C86.6307 49.3811 86.4947 49.3209 86.3648 49.2479L45.8637 26.9258C45.7713 26.8751 45.6908 26.8182 45.6209 26.7558Z"/> <path d="M45.1488 26.4957L90.2976 51.3741L83.9873 58.5523L45.1488 37.0419V26.4957Z"/> <mask id="mask0_607_3" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="6" y="37" width="78" height="83"> <path d="M12.4568 88.3251C15.9086 95.9284 20.7363 102.83 26.6973 108.684C31.6606 113.531 36.8403 117.032 42.2364 119.188C43.1483 119.613 44.1425 119.833 45.1488 119.833C46.1552 119.833 47.1493 119.613 48.0613 119.188C54.2097 116.713 59.8728 112.727 65.0505 107.231C70.8328 101.213 75.3945 94.1345 78.4841 86.3867C82.1812 77.3072 84.0512 67.5898 83.9873 57.789C84.0061 56.2376 83.5533 54.7169 82.6889 53.4275C81.8396 52.1461 80.5894 51.1812 79.1333 50.6835L48.0613 37.7567C47.1493 37.3318 46.1552 37.1116 45.1488 37.1116C44.1425 37.1116 43.1483 37.3318 42.2364 37.7567L11.1644 50.6835C9.70646 51.1809 8.45423 52.1457 7.60269 53.4275C6.74067 54.718 6.28819 56.2379 6.30424 57.789C6.30424 68.8864 8.35507 79.0651 12.4568 88.3251Z" fill="white"/></mask> <g mask="url(%23mask0_607_3)"> <path d="M6.30419 156L45.1488 122.06V37.0419L6.30419 58.5522V156Z"/> </g> <path d="M69.7681 85.7385L69.9744 77.0035C70.0654 73.0177 67.7112 68.6441 64.7442 67.2812C61.7771 65.9182 59.2834 68.0626 59.1802 72.0485L58.98 80.7774L69.7681 85.7385Z"/> <path d="M45.1366 26.4957L90.2854 51.374L83.9752 58.5522L45.1366 37.0419V26.4957Z"/></svg>');
+  --donjon-logo-svg-gray: url('data:image/svg+xml; utf8, <svg viewBox="0 0 91 120" fill="%23C1C1C1" version="1.1" id="Layer_1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <path d="M8.99821 21.2438V29.1913L18.051 24.2302V16.2706C18.0563 15.9006 18.1499 15.5373 18.324 15.2107C18.4981 14.8841 18.7477 14.6037 19.0522 14.3927L26.0723 10.522C26.6306 10.2191 27.0796 10.5644 27.0796 11.2973V19.2388L36.1142 14.2595V6.31802C36.1194 5.94809 36.213 5.58474 36.3871 5.25815C36.5613 4.93156 36.8109 4.65114 37.1153 4.44018L45.1488 0V1.34478V26.4957L0 51.3741V26.2231C0.00444471 25.8524 0.0983034 25.4881 0.273628 25.1613C0.448953 24.8344 0.700583 24.5545 1.00722 24.3453L8.01526 20.4745C8.56741 20.1716 8.99821 20.5169 8.99821 21.2438Z"/> <path fill-rule="evenodd" clip-rule="evenodd" d="M81.2751 29.1913V21.2438C81.2751 20.7164 81.5115 20.3899 81.8522 20.3661L71.5553 14.6586C71.7184 14.8202 71.8571 15.0055 71.9662 15.2091C72.1415 15.5359 72.2356 15.8999 72.2405 16.2706V24.2302L81.2751 29.1913ZM63.9028 10.4169C63.4975 10.3678 63.2059 10.7067 63.2059 11.2973V19.2388L54.1774 14.2595V6.31803C54.1721 5.9481 54.0785 5.58475 53.9044 5.25816C53.7607 4.98855 53.5655 4.7504 53.3304 4.55682L63.9028 10.4169ZM45.6209 26.7558L86.7711 49.4277C86.6307 49.3811 86.4947 49.3209 86.3648 49.2479L45.8637 26.9258C45.7713 26.8751 45.6908 26.8182 45.6209 26.7558Z"/> <path d="M45.1488 26.4957L90.2976 51.3741L83.9873 58.5523L45.1488 37.0419V26.4957Z"/> <mask id="mask0_607_3" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="6" y="37" width="78" height="83"> <path d="M12.4568 88.3251C15.9086 95.9284 20.7363 102.83 26.6973 108.684C31.6606 113.531 36.8403 117.032 42.2364 119.188C43.1483 119.613 44.1425 119.833 45.1488 119.833C46.1552 119.833 47.1493 119.613 48.0613 119.188C54.2097 116.713 59.8728 112.727 65.0505 107.231C70.8328 101.213 75.3945 94.1345 78.4841 86.3867C82.1812 77.3072 84.0512 67.5898 83.9873 57.789C84.0061 56.2376 83.5533 54.7169 82.6889 53.4275C81.8396 52.1461 80.5894 51.1812 79.1333 50.6835L48.0613 37.7567C47.1493 37.3318 46.1552 37.1116 45.1488 37.1116C44.1425 37.1116 43.1483 37.3318 42.2364 37.7567L11.1644 50.6835C9.70646 51.1809 8.45423 52.1457 7.60269 53.4275C6.74067 54.718 6.28819 56.2379 6.30424 57.789C6.30424 68.8864 8.35507 79.0651 12.4568 88.3251Z" fill="white"/> </mask> <g mask="url(%23mask0_607_3)"> <path d="M6.30419 156L45.1488 122.06V37.0419L6.30419 58.5522V156Z"/> </g> <path d="M69.7681 85.7385L69.9744 77.0035C70.0654 73.0177 67.7112 68.6441 64.7442 67.2812C61.7771 65.9182 59.2834 68.0626 59.1802 72.0485L58.98 80.7774L69.7681 85.7385Z"/> <path d="M45.1366 26.4957L90.2854 51.374L83.9752 58.5522L45.1366 37.0419V26.4957Z"/></svg>');
+}
+
+section {
+  padding-top: 1em;
+  padding-left: 5em;
+  justify-content: start; 
+}
+
+section.title {
+  justify-content: center; 
+}
+
+section.invert {
+  --color-canvas-default: var(--color-primary-black);
+  --color-fg-default: var(--color-primary-white);
+
+  --ledger-logo-svg: var(--ledger-logo-svg-gray);
+  --donjon-logo-svg: var(--donjon-logo-svg-gray);
+
+  --header-border: var(--color-technical-gray);
+
+  --h1-color: var(--color-serenity-purple);
+  --heading-strong-color: var(--color-safety-orange);
+  --header-footer-color: var(--color-technical-gray);
+  --paginate-color: var(--color-technical-gray);
+}
+
+section {
+  --color-canvas-default: var(--color-technical-gray);
+  --color-fg-default: var(--color-primary-black);
+
+  --ledger-logo-svg: var(--ledger-logo-svg-black);
+  --donjon-logo-svg: var(--donjon-logo-svg-orange);
+
+  --header-border: var(--color-primary-black);
+  
+  --h1-color: var(--color-security-blue);
+  --heading-strong-color: var(--color-safety-orange);
+  --header-footer-color: var(--color-primary-black);
+  --paginate-color: var(--color-primary-black);
+}
+
+:root::after {
+  content: attr(data-marpit-pagination) '-' attr(data-marpit-pagination-total);
+  position: absolute;
+  left: 0em;
+  bottom: 0.75em;
+  font-size: 0.75em;
+  text-align: center;
+  width: 4em;
+}
+
+header,
+footer {
+  position: absolute;
+  left: 30px;
+  right: 50px;
+  height: 20px;
+}
+
+
+header::before {
+  content: var(--ledger-logo-svg);
+  position: absolute;
+  bottom: 0.75em;
+  right: 0.75em;
+  width: 2.5em;
+  height: 2.17em;
+  rotate: z 180deg;
+}
+
+header::after {
+  content: var(--donjon-logo-svg);
+  position: absolute;
+  bottom: 3.75em;
+  right: 1.25em;
+  width: 2.5em;
+  height: 2.17em;
+  rotate: z 180deg;
+}
+
+header {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  writing-mode: vertical-lr;
+  text-align: center;
+  rotate: z 180deg;
+  font-size: 0.75em;
+  padding-left: 1.25em;
+  padding-right: 2.75em;
+  border-left: 1px solid var(--header-border);
+  text-transform: uppercase;
+}
+
+footer {
+  position:absolute;
+  right: 50px;
+  left: auto;
+  bottom: 30px;
+}
+
