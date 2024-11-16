@@ -1,7 +1,7 @@
 /* @theme donjon */
 
 @import "default";
-
+@import "https://fonts.googleapis.com/css?family=Inter";
 
 :root {
   --color-primary-black: #000;
@@ -22,6 +22,7 @@ section {
   padding-top: 1em;
   padding-left: 5em;
   justify-content: start; 
+  font-family: Inter;
 }
 
 section.title {
